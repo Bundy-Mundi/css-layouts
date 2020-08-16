@@ -1,0 +1,8 @@
+.sidebar-parent{
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
+.sidebar-children{
+  padding: 2rem;
+  font-size: 1.2rem;
+}

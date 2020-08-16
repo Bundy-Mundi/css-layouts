@@ -1,0 +1,19 @@
+.classic-parent{
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+.classic-children{
+  padding: 2rem;
+}
+.header{
+  grid-column: 1 / 4;
+}
+.footer{
+  grid-column: 1 / 4;
+}
+.left-sidebar{
+  grid-column: 1 / 2;
+}
+.right-sidebar{
+  grid-column: 3 / 4;
+}

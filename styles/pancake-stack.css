@@ -1,0 +1,7 @@
+.pancake-stack-parent{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.pancake-stack-children{
+  padding: 2rem;
+}

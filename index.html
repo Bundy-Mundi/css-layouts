@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/super-centered.css">
+  <link rel="stylesheet" href="./styles/decontructed-pancake.css">
+  <link rel="stylesheet" href="./styles/sidebar-says.css">
+  <link rel="stylesheet" href="./styles/pancake-stack.css">
+  <link rel="stylesheet" href="./styles/classic-holy-grail-layout.css">
+  <link rel="stylesheet" href="./styles/ram.css">
+  <link rel="stylesheet" href="./styles/clamping.css">
+  <title>Modern CSS Layouts</title>
+</head>
+<body>
+  <!-- #1 Super Centered -->
+  <section id="super-centered">
+    <h1 class="heading">#1 Super Centered</h1>
+    <div class="wrapper super-centered">
+      <div class="container super-centered sky-blue">
+        <div class="children super-centered tomato">:)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- #2 The Constructed Pancake -->
+  <section id="the-constructed-pancake">
+    <h1 class="heading">#2 The Deconstructed Pancake</h1>
+    <h3 class="heading">Stretched</h3>
+    <div class="wrapper super-centered">
+      <div class="container deconstructed-pancake-parent">
+        <div class="children deconstructed-pancake-children-stretched green super-centered">1</div>
+        <div class="children deconstructed-pancake-children-stretched green super-centered">2</div>
+        <div class="children deconstructed-pancake-children-stretched green super-centered">3</div>
+      </div>
+    </div>
+  </section>
+  <br/>
+  <br/>
+  <br/>
+  <section id="the-constructed-pancake">
+    <h3 class="heading">Non-Stretched</h3>
+    <div class="wrapper super-centered">
+      <div class="container deconstructed-pancake-parent">
+        <div class="children deconstructed-pancake-children-non-stretched green super-centered">1</div>
+        <div class="children deconstructed-pancake-children-non-stretched green super-centered">2</div>
+        <div class="children deconstructed-pancake-children-non-stretched green super-centered">3</div>
+      </div>
+    </div>
+  </section>
+  <!-- #3 Sidebar Says -->
+  <section id="super-centered">
+    <h1 class="heading">#3 Sidebar Says</h1>
+    <div class="wrapper super-centered">
+      <div class="container sidebar-parent">
+        <div class="sidebar-children yellow">
+          min: 150px,
+          max: 25%
+        </div>
+        <div class="sidebar-children red">
+          1fr
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="super-centered">
+    <h1 class="heading">#4 Pancake Stack</h1>
+    <div class="wrapper super-centered">
+      <div class="container pancake-stack-parent">
+        <div class="pancake-stack-children tomato" contenteditable>Header</div>
+        <div class="pancake-stack-children sky-blue">Main</div>
+        <div class="pancake-stack-children yellow">Footer Content</div>
+      </div>
+    </div>
+  </section>
+  <section id="super-centered">
+    <h1 class="heading">#5 Classic Holy Grail Layout</h1>
+    <code>grid-template: auto 1fr auto / auto 1fr auto;</code>
+    <div class="wrapper super-centered">
+      <div class="container classic-parent">
+        <div class="classic-children tomato header">Header</div>
+        <div class="classic-children left-sidebar sky-blue">Left Sidebar</div>
+        <div class="classic-children red">Main</div>
+        <div class="classic-children right-sidebar green">Right Sidebar</div>
+        <div class="classic-children yellow footer">Footer Content</div>
+      </div>
+    </div>
+  </section>
+  <section id="super-centered">
+    <h1 class="heading">#6 RAM(Repeat, Auto, Minmax)</h1>
+    <code>grid-template-columns: repeat(auto-fit, minmax(your-min, 1fr));</code>
+    <div class="wrapper super-centered">
+      <div class="container ram-parent">
+        <div class="super-centered ram-children tomato">1</div>
+        <div class="super-centered ram-children sky-blue">2</div>
+        <div class="super-centered ram-children yellow">3</div>
+        <div class="super-centered ram-children green">4</div>
+      </div>
+    </div>
+  </section>
+  <section id="super-centered">
+    <h1 class="heading">#7 Clamping My Style</h1>
+    <code>width: clamp(min, actual, max);</code>
+    <div class="wrapper super-centered">
+      <div class="container clamping-parent">
+        <div class="clamping-card">
+          <p>Title</p>
+          <div class="yellow" style="height: 200px; width: auto;">
+            Content
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odio voluptatibus debitis, accusamus repellendus, quis temporibus quisquam nostrum tenetur sit perspiciatis dolores dignissimos. Sed sunt quo accusantium assumenda iure at.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
