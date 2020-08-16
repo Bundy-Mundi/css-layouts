@@ -25,9 +25,14 @@
   </section>
 
   <!-- #2 The Constructed Pancake -->
-  <section id="the-constructed-pancake">
+  <section id="the-constructed-pancake" style="height: 50vh; margin-bottom: 15rem;">
     <h1 class="heading">#2 The Deconstructed Pancake</h1>
     <h3 class="heading">Stretched</h3>
+    <code>flex: 1 1 150px; /* Stretching */</code>
+    <br/>
+    <code>margin: 5px;</code>
+    <br/>
+    <code>height: auto;</code>
     <div class="wrapper super-centered">
       <div class="container deconstructed-pancake-parent">
         <div class="children deconstructed-pancake-children-stretched green super-centered">1</div>
@@ -36,11 +41,13 @@
       </div>
     </div>
   </section>
-  <br/>
-  <br/>
-  <br/>
-  <section id="the-constructed-pancake">
+  <section id="the-constructed-pancake" style="height: 50vh; margin-bottom: 15rem;">
     <h3 class="heading">Non-Stretched</h3>
+    <code>flex: 1 0 150px; /* No Stretching */</code>
+      <br/>
+    <code>margin: 5px;</code>
+      <br/>
+    <code>height: auto;</code>
     <div class="wrapper super-centered">
       <div class="container deconstructed-pancake-parent">
         <div class="children deconstructed-pancake-children-non-stretched green super-centered">1</div>
@@ -66,6 +73,7 @@
   </section>
   <section id="super-centered">
     <h1 class="heading">#4 Pancake Stack</h1>
+    <code>grid-template-rows: auto 1fr auto;</code>
     <div class="wrapper super-centered">
       <div class="container pancake-stack-parent">
         <div class="pancake-stack-children tomato" contenteditable>Header</div>
